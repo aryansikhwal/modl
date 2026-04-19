@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+dist/
+build/
+
+# Project artifacts
+*.mdl
+modelcli/
+
+# Dev folders (local model packages)
+real-model/
+sentiment-model/
+
+# Misc
+New Text Document.txt
+CONTEXT.md
