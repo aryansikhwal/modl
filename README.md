@@ -113,6 +113,19 @@ Edit `run.py`, then:
 
 ------------------------------------------------------------------------
 
+## Model management
+
+    modl list
+    modl info sentiment-model
+    modl run sentiment-model:1.0
+    modl tag sentiment-model:1.0 latest
+
+-   Version models
+-   Tag releases
+-   Manage multiple versions locally
+
+------------------------------------------------------------------------
+
 ## Why this matters
 
 There is no simple standard today to install and run AI models locally
