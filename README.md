@@ -11,9 +11,9 @@ Install and run AI models locally like packages.
 
 Running AI models locally is often painful:
 
--   dependency conflicts\
--   environment setup\
--   broken installs\
+-   dependency conflicts
+-   environment setup
+-   broken installs
 -   no standard way to share models
 
 modl simplifies this.
@@ -24,10 +24,21 @@ Package models, share them via links, and run them instantly.
 
 ## What you can do
 
--   Install models from a URL\
--   Run them in isolated environments\
--   Share models as `.mdl` files\
+-   Install models from a URL
+-   Run them in isolated environments
+-   Share models as `.mdl` files
 -   Version and manage models locally
+
+------------------------------------------------------------------------
+
+## Installation
+
+    git clone https://github.com/aryansikhwal/modl.git
+    cd modl
+    pip install -e .
+
+    Requires: Python 3.10+
+    Note: Currently install via source (dev mode). Packaging for pip coming soon.
 
 ------------------------------------------------------------------------
 
@@ -61,17 +72,6 @@ Example:
 
 ------------------------------------------------------------------------
 
-## Installation
-
-    git clone https://github.com/aryansikhwal/modl.git
-    cd modl
-    pip install -e .
-
-    Requires: Python 3.10+
-    Note: Currently install via source (dev mode). Packaging for pip coming soon.
-
-------------------------------------------------------------------------
-
 ## Core Commands
 
     modl init <name>
@@ -94,9 +94,9 @@ Example:
 
     init → build → install → run → share
 
--   Models are packaged as `.mdl` files\
--   Installed into a local registry\
--   Run in isolated environments\
+-   Models are packaged as `.mdl` files
+-   Installed into a local registry
+-   Run in isolated environments
 -   Shared via links
 
 ------------------------------------------------------------------------
