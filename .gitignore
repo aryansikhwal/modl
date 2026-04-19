@@ -12,6 +12,7 @@ modelcli/
 # Dev folders (local model packages)
 real-model/
 sentiment-model/
+keyword-model/
 
 # Misc
 New Text Document.txt
