@@ -31,17 +31,6 @@ Package models, share them via links, and run them instantly.
 
 ------------------------------------------------------------------------
 
-## Installation
-
-    git clone https://github.com/aryansikhwal/modl.git
-    cd modl
-    pip install -e .
-
-    Requires: Python 3.10+
-    Note: Currently install via source (dev mode). Packaging for pip coming soon.
-
-------------------------------------------------------------------------
-
 ## Quick Demo
 
 ### Install a model
@@ -69,6 +58,17 @@ Example:
 
     Enter text: OpenAI builds powerful AI tools
     Keywords: openai, builds, powerful, tools
+
+------------------------------------------------------------------------
+
+## Installation
+
+    git clone https://github.com/aryansikhwal/modl.git
+    cd modl
+    pip install -e .
+
+    Requires: Python 3.10+
+    Note: Currently install via source (dev mode). Packaging for pip coming soon.
 
 ------------------------------------------------------------------------
 
