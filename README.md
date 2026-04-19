@@ -148,3 +148,7 @@ Similar to pip, npm, or docker --- but for models.
 Early version (v0.1)
 
 Feedback is welcome.
+
+------------------------------------------------------------------------
+
+Winter is coming.
