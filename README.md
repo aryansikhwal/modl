@@ -35,9 +35,29 @@ Package models, share them via links, and run them instantly.
 
 ### Install a model
 
-    modl install https://github.com/aryansikhwal/modl/releases/download/sentiment-model-v1.0/sentiment-model-1.0.mdl
+    modl install https://github.com/aryansikhwal/modl/releases/download/assistant-model-v1.0/assistant-model-1.0.mdl
 
 ### Run it
+
+    modl run assistant-model
+
+Example:
+
+    you  > what is 15% of 200
+    aria > = 30
+
+    you  > 100 celsius to fahrenheit
+    aria > 100.0C = 212.0F
+
+    you  > tell me a joke
+    aria > Why do programmers prefer dark mode?
+           Because light attracts bugs.
+
+------------------------------------------------------------------------
+
+## Try another model
+
+    modl install https://github.com/aryansikhwal/modl/releases/download/sentiment-model-v1.0/sentiment-model-1.0.mdl
 
     modl run sentiment-model
 
@@ -45,19 +65,6 @@ Example:
 
     Enter text: I love this
     Output: Positive
-
-------------------------------------------------------------------------
-
-## Try another model
-
-    modl install https://github.com/aryansikhwal/modl/releases/download/keyword-model-v1.0/keyword-model-1.0.mdl
-
-    modl run keyword-model
-
-Example:
-
-    Enter text: OpenAI builds powerful AI tools
-    Keywords: openai, builds, powerful, tools
 
 ------------------------------------------------------------------------
 
