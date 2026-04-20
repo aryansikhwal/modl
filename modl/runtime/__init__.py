@@ -35,7 +35,7 @@ def _install_requirements(path: Path, config: dict, venv_path: Path):
         typer.echo("[modl] Dependencies already installed, skipping.")
         return
 
-    req_file = path / config.get("requirements", "requirements.txt")
+    req_file = path / (config.get("requirements") or "requirements.txt")
     if req_file.exists() and req_file.read_text().strip() != "":
         python = _get_venv_python(venv_path)
         typer.echo("[modl] Installing dependencies...")

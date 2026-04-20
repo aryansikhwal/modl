@@ -13,6 +13,7 @@ modelcli/
 real-model/
 sentiment-model/
 keyword-model/
+assistant-model/
 
 # Misc
 New Text Document.txt
